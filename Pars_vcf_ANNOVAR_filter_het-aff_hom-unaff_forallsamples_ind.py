@@ -184,7 +184,6 @@ while (count1 < totlns):
 		print "NA"
 
 	#print dit1['ReadPosRankSum']
-	#
 	#-----file3-------
 	glm1= infile3[count1]
 	glm2 = glm1.split("\t")
