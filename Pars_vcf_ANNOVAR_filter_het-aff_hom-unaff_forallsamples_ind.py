@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 ###############################################################################
-All rights reserved to UPMC/INSERM/Bioinfo-Varma-tics
+All rights reserved to Bioinfo-Varmatics/UPMC/INSERM
 Parsing ANNOVAR annotation files; with heterozygosity and homozygosity filters
 ###############################################################################
 
