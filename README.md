@@ -1,3 +1,3 @@
-# Varma sample script,
+# Varma sample script
 
 All changes have been updated
