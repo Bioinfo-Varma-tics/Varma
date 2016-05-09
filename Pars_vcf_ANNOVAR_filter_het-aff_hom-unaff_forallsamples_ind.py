@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+###############################################################################
+All rights reserved to UPMC/INSERM/Bioinfo-Varma-tics
+Parsing ANNOVAR annotation files; with heterozygosity and homozygosity filters
+###############################################################################
+
+
 #Script to Pars vcf...
 #####------Inputs-------
 # script.py INPUT1=sampily_num INPUT2=sampleIDs INPUT3=orderedsampleIDs_withcomma(,) INPUT4=Filteringtype(1-2-3)
@@ -291,6 +297,6 @@ g11 =  subprocess.check_output(cmd11, shell=True)
 g12 =  subprocess.check_output(cmd12, shell=True)
 #-------------------------------------------------
 #
-#
+
 
 
