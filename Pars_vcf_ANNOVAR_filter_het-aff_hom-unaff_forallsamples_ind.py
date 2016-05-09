@@ -29,10 +29,10 @@ b1 = str(sys.argv[2])
 b2 = str(sys.argv[3])
 #b3 = str(sys.argv[4])
 
-WDIR="/home/varma/proj_exome/work_WES/"
-TMP="/home/varma/proj_exome/work_WES/TMP/"
-AN_ANNOVAR="/home/varma/proj_exome/DDLD_WES_ANNOTATION_ANNOVAR/"
-AN_CADD="/home/varma/proj_exome/DDLD_WES_ANNOTATION_ANNOVAR_CADD/"
+WDIR="../work_WES/"
+TMP="../work_WES/TMP/"
+AN_ANNOVAR="../DDLD_WES_ANNOTATION_ANNOVAR/"
+AN_CADD="../DDLD_WES_ANNOTATION_ANNOVAR_CADD/"
 
 
 bb= list(map(str, b1.split(',')))
