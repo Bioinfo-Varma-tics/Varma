@@ -219,26 +219,26 @@ while (count1 < totlns):
                         count3 = count3 + 1
 				
 		#####------Input-2-----------------------------		
-		#elif (b2=="2"):
-		#	True
-		#	#####------MAF+RM_SYN+EXONIC----------------------------- 
-		#	if (((dit1['1000g2014oct_all'] <= "0.01") or (dit1['1000g2014oct_all'] == '.')) and (dit1['ExonicFunc.refGene'] != 'synonymous_SNV') and (dit1['Func.refGene'] == 'exonic') ):
-		#		True
-		#		#----CADD output----------------
-		#		out.write(str(elm4[0]+"\t"+elm4[1]+"\t"+elm4[2]+"\t"+elm4[3]+"\t"+elm4[4])+"\n")#+"\t"+elm4[5]
-		#		owrite.write(str(glm2[0])+"\t"+str(glm2[2])+"\t"+str(glm2[3])+"\t"+str(glm2[4])+"\t"+str(glm2[5])+"\t"+str(hom)+"\t"+str(het)+"\t"+str(glm2[6])+"\t"+str(glm3)+"\t"+str(glm4)+"\t"+dit1['snp138']+"\t"+str(dit1['DP'])+"\t"+str(dit1['QD'])+"\t"+str(dit1['ReadPosRankSum'])+"\t"+str(dit1['SOR'])+"\t"+Joinall_gvcfs3.rstrip('\n')+"\t"+dit1['Func.refGene']+"\t"+dit1['Gene.refGene']+"\t"+dit1['ExonicFunc.refGene']+"\t"+dit1['AAChange.refGene']+"\t"+dit1['clinvar_20150629']+"\t"+dit1['ExAC_ALL']+"\t"+dit1['1000g2014oct_all']+"\t"+dit1['esp6500siv2_all']+"\t"+dit1['ljb23_sift']+"\t"+dit1['ljb23_pp2hvar']+"\t"+dit1['ljb23_pp2hdiv']+"\t"+dit1['ljb23_gerp++']+"\n") #+"\t"+str(srchcadd)) #+"\n")#
-		#		count3 = count3 + 1
+		elif (b2=="2"):
+			True
+			#####------MAF+RM_SYN+EXONIC----------------------------- 
+			if (((dit1['1000g2014oct_all'] <= "0.01") or (dit1['1000g2014oct_all'] == '.')) and (dit1['ExonicFunc.refGene'] != 'synonymous_SNV') and (dit1['Func.refGene'] == 'exonic') ):
+				True
+				#----CADD output----------------
+				out.write(str(elm4[0]+"\t"+elm4[1]+"\t"+elm4[2]+"\t"+elm4[3]+"\t"+elm4[4])+"\n")#+"\t"+elm4[5]
+				owrite.write(str(glm2[0])+"\t"+str(glm2[2])+"\t"+str(glm2[3])+"\t"+str(glm2[4])+"\t"+str(glm2[5])+"\t"+str(hom)+"\t"+str(het)+"\t"+str(glm2[6])+"\t"+str(glm3)+"\t"+str(glm4)+"\t"+dit1['snp138']+"\t"+str(dit1['DP'])+"\t"+str(dit1['QD'])+"\t"+str(dit1['ReadPosRankSum'])+"\t"+str(dit1['SOR'])+"\t"+Joinall_gvcfs3.rstrip('\n')+"\t"+dit1['Func.refGene']+"\t"+dit1['Gene.refGene']+"\t"+dit1['ExonicFunc.refGene']+"\t"+dit1['AAChange.refGene']+"\t"+dit1['clinvar_20150629']+"\t"+dit1['ExAC_ALL']+"\t"+dit1['1000g2014oct_all']+"\t"+dit1['esp6500siv2_all']+"\t"+dit1['ljb23_sift']+"\t"+dit1['ljb23_pp2hvar']+"\t"+dit1['ljb23_pp2hdiv']+"\t"+dit1['ljb23_gerp++']+"\n") #+"\t"+str(srchcadd)) #+"\n")#
+				count3 = count3 + 1
 
 		#####------Input-3----------------------------- 
-		#elif (b2=="3"):
-		#	True
-		#	#####------SNPDB+MAF+NON_EXONIC----------------------------- 
-		#	if ((dit1['snp138'] == '.') and ((dit1['1000g2014oct_all'] <= "0.01") or (dit1['1000g2014oct_all'] == '.')) and (dit1['Func.refGene'] != 'exonic')):
-		#		True
-		#		#----CADD output----------------
-		#		out.write(str(elm4[0]+"\t"+elm4[1]+"\t"+elm4[2]+"\t"+elm4[3]+"\t"+elm4[4])+"\n")#+"\t"+elm4[5]
-		#		owrite.write(str(glm2[0])+"\t"+str(glm2[2])+"\t"+str(glm2[3])+"\t"+str(glm2[4])+"\t"+str(glm2[5])+"\t"+str(hom)+"\t"+str(het)+"\t"+str(glm2[6])+"\t"+str(glm3)+"\t"+str(glm4)+"\t"+dit1['snp138']+"\t"+str(dit1['DP'])+"\t"+str(dit1['QD'])+"\t"+str(dit1['ReadPosRankSum'])+"\t"+str(dit1['SOR'])+"\t"+Joinall_gvcfs3.rstrip('\n')+"\t"+dit1['Func.refGene']+"\t"+dit1['Gene.refGene']+"\t"+dit1['ExonicFunc.refGene']+"\t"+dit1['AAChange.refGene']+"\t"+dit1['clinvar_20150629']+"\t"+dit1['ExAC_ALL']+"\t"+dit1['1000g2014oct_all']+"\t"+dit1['esp6500siv2_all']+"\t"+dit1['ljb23_sift']+"\t"+dit1['ljb23_pp2hvar']+"\t"+dit1['ljb23_pp2hdiv']+"\t"+dit1['ljb23_gerp++']+"\n") #+"\t"+str(srchcadd)) #+"\n")#
-		#		count3 = count3 + 1
+		elif (b2=="3"):
+			True
+			#####------SNPDB+MAF+NON_EXONIC----------------------------- 
+			if ((dit1['snp138'] == '.') and ((dit1['1000g2014oct_all'] <= "0.01") or (dit1['1000g2014oct_all'] == '.')) and (dit1['Func.refGene'] != 'exonic')):
+				True
+				#----CADD output----------------
+				out.write(str(elm4[0]+"\t"+elm4[1]+"\t"+elm4[2]+"\t"+elm4[3]+"\t"+elm4[4])+"\n")#+"\t"+elm4[5]
+				owrite.write(str(glm2[0])+"\t"+str(glm2[2])+"\t"+str(glm2[3])+"\t"+str(glm2[4])+"\t"+str(glm2[5])+"\t"+str(hom)+"\t"+str(het)+"\t"+str(glm2[6])+"\t"+str(glm3)+"\t"+str(glm4)+"\t"+dit1['snp138']+"\t"+str(dit1['DP'])+"\t"+str(dit1['QD'])+"\t"+str(dit1['ReadPosRankSum'])+"\t"+str(dit1['SOR'])+"\t"+Joinall_gvcfs3.rstrip('\n')+"\t"+dit1['Func.refGene']+"\t"+dit1['Gene.refGene']+"\t"+dit1['ExonicFunc.refGene']+"\t"+dit1['AAChange.refGene']+"\t"+dit1['clinvar_20150629']+"\t"+dit1['ExAC_ALL']+"\t"+dit1['1000g2014oct_all']+"\t"+dit1['esp6500siv2_all']+"\t"+dit1['ljb23_sift']+"\t"+dit1['ljb23_pp2hvar']+"\t"+dit1['ljb23_pp2hdiv']+"\t"+dit1['ljb23_gerp++']+"\n") #+"\t"+str(srchcadd)) #+"\n")#
+				count3 = count3 + 1
 		count2 = count2 + 1
 	count1 = count1 + 1
 
@@ -259,12 +259,12 @@ if (b2=="1"):
 	#print "Hi this is working"
 	#out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_CADD_het_MAF1%_nosnp138_nosyn_exonic.txt","w")
         out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_hom.txt","w")
-#elif (b2=="2"):
-#	True
-#	out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_CADD_het_MAF1%_nosyn_exonic.txt","w")
-#elif (b2=="3"):
-#	True
-#	out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_CADD_het_MAF1%_nosnp138_non-exonic.txt","w")
+elif (b2=="2"):
+	True
+	out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_CADD_het_MAF1%_nosyn_exonic.txt","w")
+elif (b2=="3"):
+	True
+	out1 = open(AN_CADD+"samp"+c1+"_"+c2+"_Variants_GATK_ANNOVAR_CADD_het_MAF1%_nosnp138_non-exonic.txt","w")
 
 #out2 = open(TMP+"samp"+c1+"_"+c2+"_Variants_GATK_head","w")
 fl1 = open(TMP+"samp"+c1+"_"+c2+"_variants_Parser_ANNOVAR_OUT.txt",'r').readlines()
@@ -280,12 +280,12 @@ for g in fl2:
 	#-----Use dict2-----
 	CADDout = srchdb(gg)
         out1.write(str(g.rstrip())+"\t"+str(CADDout))#+"\n")
-	#if len(CADDout.split("\n")) > 2:
-	#	for echCADDout in CADDout.split("\n")[:-1]:
-	#		#print g.rstrip()+"\t"+echCADDout+"\n"
-	#		out1.write(str(g.rstrip())+"\t"+str(echCADDout)+"\n")
-	#elif len(CADDout.split("\n")) <= 2:
-	#	out1.write(str(g.rstrip())+"\t"+str(CADDout))#+"\n")
+	if len(CADDout.split("\n")) > 2:
+		for echCADDout in CADDout.split("\n")[:-1]:
+			#print g.rstrip()+"\t"+echCADDout+"\n"
+			out1.write(str(g.rstrip())+"\t"+str(echCADDout)+"\n")
+	elif len(CADDout.split("\n")) <= 2:
+		out1.write(str(g.rstrip())+"\t"+str(CADDout))#+"\n")
 out1.close()
 
 cmd11 = "rm "+TMP+"samp"+c1+"_"+c2+"_variants_Parser_ANNOVAR_OUT.txt"
