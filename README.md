@@ -1,4 +1,5 @@
 # VCF Parsing script
 
-Script is designed to parse multi-sample VCF files, with zygosity count and easy filtering format.
-All changes have been updated
+Parse/ filter multi-sample VCF files
+Easy filtering steps based on Het/Hom zygosity, dbSNP, MAF <= 1% and other score thresholds
+It includes zygosity count and very friendly output format, all changes have been updated 
